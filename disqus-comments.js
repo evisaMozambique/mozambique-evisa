@@ -6,7 +6,7 @@
 (function () {
   'use strict';
 
-  var DISQUS_SHORTNAME = 'YOUR_MOZAMBIQUE_DISQUS_SHORTNAME';
+  var DISQUS_SHORTNAME = 'mozambique-evisa-1';
   var section = document.querySelector('.moz-disqus-section');
   if (!section) return;
 
