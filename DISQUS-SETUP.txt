@@ -1,0 +1,21 @@
+MOZAMBIQUE eVISA — DISQUS SETUP
+================================
+All 22 HTML pages now have a comment area directly above the footer.
+Each page uses a unique stable identifier so it has its own discussion.
+
+ONE-TIME SETUP:
+1. Register your Mozambique website in Disqus: https://disqus.com/admin/
+2. Find its exact SHORTNAME under Settings > General (not the website name).
+3. Open disqus-comments.js in a text editor.
+4. Replace YOUR_MOZAMBIQUE_DISQUS_SHORTNAME with your exact shortname.
+5. Save the file. Upload all HTML pages and disqus-comments.js together,
+   keeping them in the same folder.
+6. Under Disqus General, set Website URL to your actual deployed URL.
+7. Test your published website over HTTPS (not file:// or a local preview).
+
+IMPORTANT:
+- Never use a guessed shortname or one from a different site.
+- If the comments do not load, check your browser console and disable any
+  ad/tracker blocker for a test; Disqus must be allowed to run.
+- The Disqus commenting form requires network access to disqus.com.
+- You only need to set the shortname once in disqus-comments.js.
